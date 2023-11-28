@@ -26,5 +26,25 @@ function calcularMedia() {
 
   let resultadoMedia = calcularMedia((nota1 + nota2 + nota3 + nota4) / 4);
 
+  if(resultadoMedia == 0){
+    console.log("Infelizmente você zerou a prova :( ");
+  } 
+  else if(resultadoMedia >= 0.1 || resultadoMedia <= 3){
+    console.log("Caramba, deu ruim, você obteve media ${resultadoMedia}! Estude mais e tente novamente!");
+  } 
+  else if(resultadoMedia >=3.1 || resultadoMedia <= 5.9){
+    console.log("Você obteve media ${resultadoMedia}! Falta pouco para a média.");
+  }
+  else if(resultadoMedia >= 6 || resultadoMedia <= 7){
+    console.log("Você está na média com ${resultadoMedia}");
+  }
+  else if(resultadoMedia >= 7.1 || resultadoMedia <= 9.9){
+    console.log("Notão! Sua média é ${resultadoMedia}!");
+  }
+  else{
+    console.log("Hoje é seu aniversário? Pq você ta de parabéns! 10 de média");
+  }
+  
+
 
     
