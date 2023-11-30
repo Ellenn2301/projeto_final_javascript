@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@400;700;800&family=Poppins:wght@300&display=swap" rel="stylesheet">    
@@ -13,7 +13,7 @@
   <body>
     <header class="inicio">
       <nav>
-        <h1>Módulo III: JavaScript 🐛</h1> 
+        <h1>Módulo III: JavaScript <i class="fa-brands fa-js" style="color: #eae210;"></i></h1> 
       </nav>
     </header>
        
@@ -25,9 +25,13 @@
         constantes, operadores aritméticos e lógicos, estruturas condicionais e
         de repetição, manipulação do DOM, manipulação de arrays, objetos e variáveis. 
         Este projetinho tem como intuito demonstrar através da
-        prática o conhecimento adquirido.
+        prática o conhecimento adquirido. 
       </p>
+      <br>
 
+        <h3>A calculadora a seguir permite que o usuário realize as quatro operações matemáticas básicas, 
+          definindo os números a serem utilizados nas operações.</h3>
+      
       <div id="content">
         <section id="projeto1">
           <h2>Calculadora Básica <i class="fa-solid fa-calculator"></i></h2>
@@ -55,11 +59,17 @@
         </section>
         </div>
 
+        <h3>
+          A calculadora de médias realiza a média aritmética da nota de alunas, onde recebe quatro notas,
+          que são somadas e dividas pela quantidade de casos, exibindo no final uma mensagem de acordo com 
+          a situação da aluna.
+        </h3>
+        
         <div class="containerCalculoMedia">
             <section id="projeto2">
               <h2>Calculadora de Médias <i class="fa-solid fa-calculator"></i></h2>
 
-              <div id="contentCalcMedias">
+              <div id="contentCalculoMedias">
                 <div id="notas">
                   <div class="nota">
                     <label for="nota1">Nota 1</label>
@@ -92,7 +102,7 @@
         </div>
     </main>
 
-    <script type="text/javascript" src="/js/calculadora.js"></script>
-    <script type="text/javascript" src="/js/media.js"></script>
+    <script type="text/javascript" src="./js/calculadora.js"></script>
+    <script type="text/javascript" src="./js/media.js"></script>
   </body>
 </html>
