@@ -53,6 +53,11 @@ margin: 40px;
 
 p {
 text-align: justify;
+font-size: 18px;
+font-weight: 600;
+font-style: oblique;
+padding: 20px;
+color:#16080f;
 }
 
 section {
