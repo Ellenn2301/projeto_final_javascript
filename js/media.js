@@ -17,7 +17,6 @@ function calcularMedia() {
     const nota3 = parseFloat(document.getElementById("nota3").value);
     const nota4 = parseFloat(document.getElementById("nota4").value);
 
-    
     let mensagem = "";
     // evite mexer no código acima!
 
@@ -43,11 +42,11 @@ function calcularMedia() {
       //console.log(`Notão! Sua média é ${resultadoMedia}!`);
       mensagem = `Notão! Sua média é ${resultadoMedia}!`
     }
-    else{
+    else if(resultadoMedia == 10){
       //console.log(`Hoje é seu aniversário? Pq você ta de parabéns! 10 de média`);
       mensagem = `Hoje é seu aniversário? Porque você está de parabéns! 10 na média.`
     }
-
+   
     // evite mexer na linha de código abaixo!
     document.getElementById("situacaoAluno").innerHTML = mensagem; //mensagem
 
